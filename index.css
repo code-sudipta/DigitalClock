@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'DSEG7-Classic';
+    src: url('fonts/dseg7-classic-latin-700-italic.ttf') format('truetype');
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+.clock-border{
+    margin: auto;
+    color: red;
+    /* background-color: black; */
+    width: fit-content;
+    height: fit-content;
+    border:45px solid rgb(43, 43, 43);
+    background-color: rgb(43, 43, 43);
+    margin-top: 100px;
+    border-radius: 50px;
+    box-shadow: 0 30px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.clock-border2{
+    border: 20px solid rgb(62, 62, 62);
+    width: fit-content;
+    border-radius: 40px;
+}
+
+.clock{
+    margin: auto;
+    background-color: white;
+    font-size: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'DSEG7-Classic', sans-serif;
+    font-weight: bolder;
+    padding: 20px 50px;
+    border: 30px solid black;
+    border-radius: 20px;
+}
+
